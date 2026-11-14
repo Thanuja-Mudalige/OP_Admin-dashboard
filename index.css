@@ -1,0 +1,29 @@
+:root,html ,.main-grid{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+.main-grid{
+    
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100%;
+    background-color: aqua;
+}
+
+.left-side{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80px  180px 100px;
+    
+}
+.dashboard-icon{
+    height: 60px;
+}
+
+.sectionone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
