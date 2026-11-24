@@ -9,10 +9,11 @@
     width: 100vw;  
 }
 .main-grid{
-    
+    height: 100vh;
+    width: 100%;
     display: grid;
-    grid-template-columns: 20% 80%;
-    grid-template-rows: 10% 90%;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 15% 1fr;
 
     
 }
@@ -134,3 +135,73 @@
 }
 
 
+
+
+.right-side-bottom{
+    background-color: rgb(169, 185, 199) ;
+   display: grid;
+   grid-template-columns: 80% 1fr;
+   grid-template-rows: 100%;
+}
+
+
+.project-grid{
+    padding:15px;
+    width: 100%;
+    height: 94%;
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(3,1fr);
+   row-gap: 20px;
+}
+
+
+.project-card{
+    position: relative;
+    width: 100%;
+    height: 95%;
+    background-color: whitesmoke;
+    border-left: 10px solid rgb(207, 169, 0);
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+
+.project-card .card-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.project-card p{
+    font-size: 22px;
+}
+
+
+
+.card-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 25px;
+    margin-top: 10px;
+    position: absolute;
+    bottom:10px;
+    right:5px;
+    
+}
+
+.card-icons svg{
+    width: 28px;
+
+}
+.project-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+
+.rs-left>p{
+    padding:15px ;
+    font-size: 28px;
+    
+}
