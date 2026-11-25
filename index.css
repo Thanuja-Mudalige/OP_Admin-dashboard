@@ -129,7 +129,7 @@
     margin-right: 40px;
     border-radius: 25px;
     border-style: none;
-    background-color: rgb(61, 138, 211);
+    background-color: rgb(67, 127, 184);
     color: whitesmoke;
     font-weight: bold;
 }
@@ -138,9 +138,9 @@
 
 
 .right-side-bottom{
-    background-color: rgb(169, 185, 199) ;
+    background-color: rgb(179, 190, 199) ;
    display: grid;
-   grid-template-columns: 80% 1fr;
+   grid-template-columns: 75% 1fr;
    grid-template-rows: 100%;
 }
 
@@ -164,6 +164,7 @@
     border-left: 10px solid rgb(207, 169, 0);
     border-radius: 10px;
     padding: 15px;
+    box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.185);
 
 }
 
@@ -171,9 +172,12 @@
 .project-card .card-title{
     font-size: 24px;
     font-weight: bold;
+    color:black;
 }
 .project-card p{
     font-size: 22px;
+    color: rgb(63, 63, 63);
+    
 }
 
 
@@ -204,4 +208,55 @@
     padding:15px ;
     font-size: 28px;
     
+}
+
+
+
+
+.rs-right{
+    
+}
+.announcements{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    gap: 10px;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin-top: 12px;
+    width: 90%;
+    align-items: center;
+    box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.185);
+    
+}
+
+.rs-right>p{
+    padding:15px ;
+    font-size: 28px;
+
+    
+}
+.rs-right span{
+    display:block;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+
+}
+.adata{
+    color:rgb(63, 63, 63);
+    font-size: 17px;
+
+   
+}
+.announcements p{
+    flex:1;
+    border-bottom: 2px solid grey;
+    width: 80%;
+}
+
+.announcements p:last-child {
+  border-bottom: none;          
 }
