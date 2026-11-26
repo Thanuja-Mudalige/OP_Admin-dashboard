@@ -1,7 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75,100..900;1,75,100..900&display=swap');
+
+@font-face {
+  font-family: 'MyRoboto';
+  font-style: italic;
+  font-weight: 100;
+  font-stretch: normal;
+  src: url(https://gstatic.com) format('truetype');
+  size-adjust: 85%;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+*{
+  font-family: Roboto;
 }
 
 :root,html ,.main-grid{
@@ -213,27 +229,27 @@
 
 
 
-.rs-right{
-    
-}
+
 .announcements{
     display: flex;
     flex-direction: column;
-    height: 40%;
+    height: 45%;
     gap: 10px;
     padding: 15px;
     background-color: whitesmoke;
     border-radius: 15px;
     margin-top: 12px;
-    width: 90%;
+    width: 80%;
     align-items: center;
     box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.185);
+    margin-left: 25px;
     
 }
 
 .rs-right>p{
     padding:15px ;
     font-size: 28px;
+    margin-left: 25px;
 
     
 }
@@ -259,4 +275,37 @@
 
 .announcements p:last-child {
   border-bottom: none;          
+}
+
+
+
+
+.trending-container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.trending-container img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.trending{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.185);
+    padding: 15px;
+    background-color: whitesmoke;
+    width: 80%;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+.titletrending{
+    margin-top: 45px;
+    margin-left: 25px;
 }
